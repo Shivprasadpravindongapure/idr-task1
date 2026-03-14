@@ -1,0 +1,23 @@
+<svg width="600" height="130" viewBox="0 0 600 130" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(0.4) translate(20, 40)">
+    <defs>
+      <mask id="gapMask">
+        <rect width="240" height="240" fill="white" />
+        <line x1="120" y1="120" x2="120" y2="230" stroke="black" stroke-width="12" stroke-linecap="round" />
+        <line x1="120" y1="120" x2="25" y2="65" stroke="black" stroke-width="12" stroke-linecap="round" />
+        <line x1="120" y1="120" x2="215" y2="65" stroke="black" stroke-width="12" stroke-linecap="round" />
+      </mask>
+    </defs>
+    
+    <g mask="url(#gapMask)">
+      <polygon points="120,20 206.6,70 120,120 33.4,70" fill="#ffffff" />
+      <polygon points="33.4,70 120,120 120,220 33.4,170" fill="#111111" />
+      <polygon points="120,120 206.6,70 206.6,170 120,220" fill="#ff6a00" />
+    </g>
+    <polygon points="120,20 206.6,70 206.6,170 120,220 33.4,170 33.4,70" fill="none" stroke="#111111" stroke-width="12" stroke-linejoin="round" />
+  </g>
+
+  <!-- Text -->
+  <text x="130" y="65" font-family="'Inter', 'Montserrat', 'Helvetica Neue', sans-serif" font-weight="700" font-size="34" fill="#111111" letter-spacing="-0.5">Institute of</text>
+  <text x="130" y="105" font-family="'Inter', 'Montserrat', 'Helvetica Neue', sans-serif" font-weight="700" font-size="34" fill="#ff6a00" letter-spacing="-0.5">Digital Risk</text>
+</svg>

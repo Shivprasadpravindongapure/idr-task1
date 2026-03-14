@@ -1,0 +1,3 @@
+Institute of Digital Risk (IDR) Brand Design Explanation
+
+The IDR logo uses a striking geometric cube outline with a cutout effect to represent structured digital risk frameworks, structural integrity, and resilience in complex systems. The vibrant orange colour reflects energy, innovation, and forward-thinking leadership in cybersecurity and AI risk, while the solid black conveys authority, stability, and risk governance. A modern and highly legible sans-serif typeface (Inter) was selected to ensure absolute clarity and a professional, tech-oriented institutional feel. The overall minimalist design ensures scalability, balance, and impact across digital platforms, from mobile apps to presentation headers.

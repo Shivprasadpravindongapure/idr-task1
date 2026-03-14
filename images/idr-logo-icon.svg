@@ -1,0 +1,22 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="gapMask">
+      <rect width="240" height="240" fill="white" />
+      <line x1="120" y1="120" x2="120" y2="230" stroke="black" stroke-width="12" stroke-linecap="round" />
+      <line x1="120" y1="120" x2="25" y2="65" stroke="black" stroke-width="12" stroke-linecap="round" />
+      <line x1="120" y1="120" x2="215" y2="65" stroke="black" stroke-width="12" stroke-linecap="round" />
+    </mask>
+  </defs>
+  
+  <g mask="url(#gapMask)">
+    <!-- Top Face (White) -->
+    <polygon points="120,20 206.6,70 120,120 33.4,70" fill="#ffffff" />
+    <!-- Left Face (Black) -->
+    <polygon points="33.4,70 120,120 120,220 33.4,170" fill="#111111" />
+    <!-- Right Face (Orange) -->
+    <polygon points="120,120 206.6,70 206.6,170 120,220" fill="#ff6a00" />
+  </g>
+  
+  <!-- Outer Outline to define the shape on white background -->
+  <polygon points="120,20 206.6,70 206.6,170 120,220 33.4,170 33.4,70" fill="none" stroke="#111111" stroke-width="12" stroke-linejoin="round" />
+</svg>
